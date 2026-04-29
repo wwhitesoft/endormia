@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Endormia",
+    "slug": "endormia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "endormia",
+    "splash": {
+      "backgroundColor": "#07090d",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.endormia.app",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07090d"
+      },
+      "package": "com.endormia.app"
+    },
+    "plugins": [
+      "expo-haptics",
+      "expo-linear-gradient"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "endormia-sleep-os"
+      }
+    }
+  }
+}
